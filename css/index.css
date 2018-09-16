@@ -1,3 +1,5 @@
+
+
 @import url("base.css");
 
 header{
@@ -242,6 +244,9 @@ nav ul li:hover i{
 }
 .list ul li .buy .left{
     float: left;
+}
+.list  a{
+    text-decoration: none;
 }
 .list ul li .buy .left:hover{
     text-decoration: underline;
@@ -584,9 +589,12 @@ nav ul li:hover i{
     width: 100%;
     height: 100%;
     display: block;
+     /* text-decoration: none; */
+    color: #333;
 }
 .footer1 .small li:hover a{
     text-decoration: underline;
+    color: #333;
 }
 .footer1 .small li{
     line-height: 28px;
@@ -794,6 +802,7 @@ nav ul li:hover i{
     }
     .list ul li .buy .left,.list ul li .buy .right{
         font-size: 18px;
+
     }
     .list ul .img_box{
         background-repeat:no-repeat;
